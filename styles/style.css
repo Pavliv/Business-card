@@ -18,24 +18,14 @@ body,
 	clear: both;
 }
 .line{
-	background-color: #ffd741;
-	height:2px;
+	height: 3px;
 	width: 120px;
-	float: right;
 }
 /*HEADER*/
 .header {
 	background: url("../images/header.jpg") no-repeat center;
 	background-size: cover;
-	padding: 100px 0;
-}
-.header h1 {
-	font-size: 40px;
-	color: #ffd741;
-	padding: 0;
-	margin: 0;
-	width: 20%;
-	float: left;
+	padding: 40px 0;
 }
 .header .social li {
 	display: inline;
@@ -45,17 +35,76 @@ body,
 	text-align: right;
 }
 .header .fa {
-	font-size: 50px;
-	color: #fff;
+	font-size: 35px;
+	color: #5b452d;
 }
 .social .fa:hover {
-	color: #ffd741;
+	color: #ffc802;
 }
 .header .little_title {
+	padding-top: 250px;
 	display: block;
 	float: right;
-	padding-top: 200px;
+	text-align: right;
+}
+.little_title h2 {
+	font-size: 30px;
+	color: #ffc802;
 }
 .little_title p:last-of-type {
 	text-align: right;
+	margin: 40px 0 3px;
+}
+.little_title p {
+	color: #5b452d;
+}
+.little_title a:hover {
+	color: #ffc802;
+}
+.picture_btn {
+	text-decoration: none;
+	font-weight: bold;
+	color: #5b452d;
+}
+.little_title .line {
+	background-color: #ffc802;
+	float: right;
+}
+/*what_thay_do*/
+.admiration {
+	padding: 70px 0;
+	background-color: #ffd741;
+}
+.admiration .admiration_img {
+	width: 40%;
+	float: left;
+}
+.admiration h2 {
+	font-size: 30px;
+	color: #474c36;
+}
+.admiration img {
+	width: 100%;
+}
+.admiration .admiration_do {
+	width: 50%;
+	float: right;
+}
+.admiration_do .line{
+	background-color:#fff;
+	width: 50%;
+}
+.admiration_do h3 {
+	margin: 50px 0 3px 0;
+	font-size: 25px;
+	color: #474c36;
+}
+.admiration_do ul {
+	padding: 0;
+	list-style-type: none;
+}
+.admiration_do .fa {
+	margin-top: 30px;
+	font-size: 40px;
+	color: #474c36;
 }
