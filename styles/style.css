@@ -70,10 +70,20 @@ body,
 	background-color: #ffc802;
 	float: right;
 }
-/*what_thay_do*/
+/*admiration*/
 .admiration {
 	padding: 70px 0;
 	background-color: #ffd741;
+}
+.admiration h2, h3, h4, p, .fa {
+	color: #474c36;
+}
+.admiration p {
+	text-align: justify;
+	font-size: 12px;
+}
+.admiration_do p {
+	margin: 0 0 0 60px;
 }
 .admiration .admiration_img {
 	width: 40%;
@@ -81,7 +91,6 @@ body,
 }
 .admiration h2 {
 	font-size: 30px;
-	color: #474c36;
 }
 .admiration img {
 	width: 100%;
@@ -97,14 +106,18 @@ body,
 .admiration_do h3 {
 	margin: 50px 0 3px 0;
 	font-size: 25px;
-	color: #474c36;
+}
+.admiration_do h4 {
+	margin: 30px 0 0 0;
+	text-transform: uppercase;
 }
 .admiration_do ul {
 	padding: 0;
 	list-style-type: none;
 }
 .admiration_do .fa {
-	margin-top: 30px;
+	padding: 20px 10px;
+	height: 50px;
 	font-size: 40px;
-	color: #474c36;
+	float: left;
 }
