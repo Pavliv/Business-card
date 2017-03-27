@@ -70,7 +70,7 @@ body,
 	background-color: #ffc802;
 	float: right;
 }
-/*admiration*/
+/*Admiration*/
 .admiration {
 	padding: 70px 0;
 	background-color: #ffd741;
@@ -119,5 +119,30 @@ body,
 	padding: 20px 10px;
 	height: 50px;
 	font-size: 40px;
+	float: left;
+}
+/*Place*/
+.groups {
+	background: url("../images/groups.jpg") no-repeat center;
+	/*background: rgba(0, 0, 0, 0.5);*/
+	height: 700px;
+	padding: 100px 0;
+}
+.groups h3 {
+	margin: 50px 0 3px 0;
+}
+.groups .line {
+	background-color: #fff;
+	width: 300px;
+}
+.groups .verline {
+	display: inline-block;
+	height: 10px;
+	width: 2px;
+	background-color: #474c36;
+	margin-left: 100px;
+}
+.groups .groups_name {
+	width: 60%;
 	float: left;
 }
