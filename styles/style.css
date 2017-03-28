@@ -130,10 +130,15 @@ body,
 }
 .groups h3 {
 	margin: 50px 0 3px 0;
+	color: #ffc802;
 }
 .groups .line {
 	background-color: #fff;
 	width: 300px;
+}
+.groups h5 {
+	font-size: 70px;
+	color: #ffc802;
 }
 .groups .verline {
 	display: inline-block;
