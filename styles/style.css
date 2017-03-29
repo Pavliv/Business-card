@@ -124,30 +124,58 @@ body,
 /*Place*/
 .groups {
 	background: url("../images/groups.jpg") no-repeat center;
-	/*background: rgba(0, 0, 0, 0.5);*/
-	height: 700px;
+	/*background: rgba(50, 50, 50, 0.7);*/
 	padding: 100px 0;
+	position: relative;
+}
+.groups h3, h5, a {
+	color: #ffc802;
+}
+.groups h6, .info, .fa-ravelry {
+	color: #fff;
 }
 .groups h3 {
-	margin: 50px 0 3px 0;
-	color: #ffc802;
+	margin: 0 0 3px 0;
 }
 .groups .line {
 	background-color: #fff;
 	width: 300px;
 }
-.groups h5 {
+.groups h4 {
 	font-size: 70px;
 	color: #ffc802;
 }
+.groups h5 {
+	font-size: 20px;
+}
+.groups h6 {
+	margin-bottom: 25px;
+	font-size: 15px;
+}
+.groups .info {
+	font-size: 13px;
+	text-align: justify;
+}
 .groups .verline {
 	display: inline-block;
-	height: 10px;
-	width: 2px;
+	height: 20px;
+	width: 4px;
 	background-color: #474c36;
 	margin-left: 100px;
+}
+.groups .active_verline {
+	background-color: #ffc802;
 }
 .groups .groups_name {
 	width: 60%;
 	float: left;
+}
+.groups i {
+	font-size: 60px;
+}
+.groups a {
+	text-decoration: none;
+}
+.groups a:hover {
+	color: #fff;
 }
