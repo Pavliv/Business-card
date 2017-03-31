@@ -72,10 +72,10 @@ body,
 }
 /*Admiration*/
 .admiration {
+	background: url("../images/admiration.jpg") no-repeat center;
 	padding: 70px 0;
-	background-color: #ffd741;
 }
-.admiration h2, h3, h4, p, .fa {
+.admiration h2, h3, h4, p {
 	color: #474c36;
 }
 .admiration p {
@@ -100,36 +100,34 @@ body,
 	float: right;
 }
 .admiration_do .line{
+	margin-left: 50px;
 	background-color:#fff;
-	width: 50%;
+	width: 30%;
 }
 .admiration_do h3 {
 	margin: 50px 0 3px 0;
 	font-size: 25px;
 }
 .admiration_do h4 {
-	margin: 30px 0 0 0;
+	margin: 15px 0 0 0;
 	text-transform: uppercase;
 }
 .admiration_do ul {
 	padding: 0;
 	list-style-type: none;
 }
-.admiration_do .fa {
-	padding: 20px 10px;
-	height: 50px;
-	font-size: 40px;
-	float: left;
+.admiration_do .numberadm {
+	padding-bottom: -10px;
+	font-size: 28px;
 }
 /*Place*/
 .groups {
 	background: url("../images/groups.jpg") no-repeat center;
-	/*background: rgba(50, 50, 50, 0.7);*/
 	padding: 100px 0;
 	position: relative;
 }
 .groups h3, h5, a {
-	color: #ffc802;
+	color: #fcd93f;
 }
 .groups h6, .info, .fa-ravelry {
 	color: #fff;
@@ -138,12 +136,14 @@ body,
 	margin: 0 0 3px 0;
 }
 .groups .line {
+	margin-left: 30px;
 	background-color: #fff;
-	width: 300px;
+	width: 100px;
 }
 .groups h4 {
-	font-size: 70px;
-	color: #ffc802;
+	padding: 50px 0 50px 100px;
+	font-size: 50px;
+	color: #fcd93f;
 }
 .groups h5 {
 	font-size: 20px;
@@ -157,14 +157,29 @@ body,
 	text-align: justify;
 }
 .groups .verline {
-	display: inline-block;
+	margin: 8px 0 0 50px;
 	height: 20px;
 	width: 4px;
-	background-color: #474c36;
-	margin-left: 100px;
+	background-color: #cfceca;
+}
+.groups .avtivebtn {
+	margin-bottom: 20px;
+	color: #fcd93f;
 }
 .groups .active_verline {
-	background-color: #ffc802;
+	background-color: #fcd93f;
+}
+.groups button {
+	background-color: transparent;
+	border: none;
+	outline: none;
+	width: 120px;
+	color: #cfceca;
+	font-size: 14px;
+	cursor: pointer;
+}
+.groups button:hover {
+	opacity: 0.2;
 }
 .groups .groups_name {
 	width: 60%;
