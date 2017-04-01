@@ -162,11 +162,10 @@ body,
 	width: 4px;
 	background-color: #cfceca;
 }
-.groups .avtivebtn {
-	margin-bottom: 20px;
+.groups #snakeEagles {
 	color: #fcd93f;
 }
-.groups .active_verline {
+.groups .snakeLine {
 	background-color: #fcd93f;
 }
 .groups button {
