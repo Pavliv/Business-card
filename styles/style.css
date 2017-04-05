@@ -129,6 +129,9 @@ body,
 .groups h3, h5, a {
 	color: #fcd93f;
 }
+.groups .small_ltr {
+	color: #fcd93f;
+}
 .groups h6, .info, .fa-ravelry {
 	color: #fff;
 }
@@ -141,15 +144,19 @@ body,
 	width: 100px;
 }
 .groups h4 {
-	padding: 50px 0 50px 100px;
+	padding: 85px 0 95px 100px;
 	font-size: 50px;
 	color: #fcd93f;
 }
 .groups h5 {
+	margin-bottom: 15px;
 	font-size: 20px;
 }
 .groups h6 {
-	margin-bottom: 25px;
+	margin: 20px 0 25px 0;
+	font-size: 15px;
+}
+.groups_desc .small_ltr {
 	font-size: 15px;
 }
 .groups .info {
@@ -190,6 +197,10 @@ body,
 .groups a {
 	text-decoration: none;
 }
+.groups_desc {
+	position: relative;
+}
 .groups a:hover {
+	position: absolute;
 	color: #fff;
 }
