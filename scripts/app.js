@@ -1,3 +1,4 @@
+// GROUP SECTION
 $("#fishEagles").click(function () {
 	$("#fishEagles").css("color", "#fcd93f");
 	$(".fishLine").css("background-color", "#fcd93f");
@@ -54,5 +55,5 @@ $("#otherEagles").click(function () {
 	$(".groups_name h4").text("Other Eagles");
 	$(".groups_desc h5").text("Other Eagles.");
 	$(".groups_desc h6").text("Major new research into eagle taxonomy suggests that the important genera Aquila and Hieraaetus are not composed of nearest relatives, and it is likely that a reclassification of these genera will soon take place, with some species being moved to Lophaetus or Ictinaetus.");
-	$(".groups_desc p").text("Bonelli's eagle and the African hawk-eagle have been moved from Hieraaetus to Aquila. Either the greater spotted eagle and lesser spotted eagle should move from Aquila to join the long-crested eagle in Lophaetus, or, perhaps better, all three of these species should move to Ictinaetus with the black eagle. The steppe eagle and tawny eagle, once thought to be conspecific, are not even each other's nearest relatives.");
+	$(".groups_desc p").text("Bonelli's eagle and the African hawk-eagle have been moved from Hieraaetus to Aquila. Either the greater spotted eagle and lesser spotted eagle should move from Aquila to join the long-crested eagle in Lophaetus, or, perhaps better, all three of these species should move to Ictinaetus with the black eagle.");
 });

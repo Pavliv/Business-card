@@ -120,7 +120,7 @@ body,
 	padding-bottom: -10px;
 	font-size: 28px;
 }
-/*Place*/
+/*Groups*/
 .groups {
 	background: url("../images/groups.jpg") no-repeat center;
 	padding: 100px 0;
@@ -144,7 +144,7 @@ body,
 	width: 100px;
 }
 .groups h4 {
-	padding: 85px 0 95px 100px;
+	padding: 100px 0 100px 100px;
 	font-size: 50px;
 	color: #fcd93f;
 }
@@ -203,4 +203,39 @@ body,
 .groups a:hover {
 	position: absolute;
 	color: #fff;
+}
+/*Etymology*/
+.etymology {
+	padding: 100px 0;
+	background-color: #f5f5f5;
+}
+.etymology .line {
+	margin-left: 30px;
+	background-color: #ffc802;
+	width: 150px;
+}
+.etymology h2 {
+	margin: 0 0 3px 0;
+	color: #202b2f;
+}
+.etymology .etm1 {
+	margin: 30px 50px 0 0;
+	width: 30%;
+	background-color: #fff;
+	float: left;
+}
+.etm1 img {
+	width: 100%;
+}
+.etm_h3 {
+	padding: 20px 20px 5px 20px;
+	margin: 0;
+	color: #202b2f;
+}
+.etm_p {
+	padding: 5px 20px 30px 20px;
+	margin: 0;
+	text-align: justify;
+	color: #566e78;
+	font-size: 12px;
 }
