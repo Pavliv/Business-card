@@ -34,12 +34,39 @@ body,
 .header .social ul {
 	text-align: right;
 }
-.header .fa {
+.social .fa {
 	font-size: 35px;
 	color: #5b452d;
 }
 .social .fa:hover {
 	color: #ffc802;
+	transition: 0.3s;
+}
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	right: 0;
+	padding: 10px 20px;
+	min-width: 100px;
+	background-color: transparent;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+.social a {
+	text-decoration: none;
+	color: #5b452d;
+	font-size: 18px;
+}
+.social a:hover {
+	color: #ffc802;
+	transition: 0.3s;
 }
 .header .little_title {
 	padding-top: 250px;
@@ -220,7 +247,7 @@ body,
 }
 .etymology .etm1 {
 	margin: 30px 50px 0 0;
-	width: 30%;
+	width: 29%;
 	background-color: #fff;
 	float: left;
 }
