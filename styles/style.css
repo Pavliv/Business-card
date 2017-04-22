@@ -50,7 +50,7 @@ body,
 	display: none;
 	position: absolute;
 	right: 0;
-	padding: 10px 20px;
+	padding: 5px 20px;
 	min-width: 100px;
 	background-color: transparent;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -249,7 +249,7 @@ body,
 	margin: 30px 50px 0 0;
 	width: 29%;
 	background-color: #fff;
-	float: left;
+	overflow-y: auto;
 }
 .etm1 img {
 	width: 100%;
@@ -265,4 +265,16 @@ body,
 	text-align: justify;
 	color: #566e78;
 	font-size: 12px;
+}
+.etymology .first, .fourth {
+	height: 500px;
+}
+.etymology .second, .third {
+	height: 200px;
+}
+.etymology .first {
+	float: left;
+}
+.etymology .fourth {
+	float: right;
 }
