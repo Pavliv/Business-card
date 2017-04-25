@@ -245,13 +245,7 @@ body,
 	margin: 0 0 3px 0;
 	color: #202b2f;
 }
-.etymology .etm1 {
-	margin: 30px 50px 0 0;
-	width: 29%;
-	background-color: #fff;
-	overflow-y: auto;
-}
-.etm1 img {
+.etymology img {
 	width: 100%;
 }
 .etm_h3 {
@@ -266,15 +260,25 @@ body,
 	color: #566e78;
 	font-size: 12px;
 }
-.etymology .first, .fourth {
-	height: 500px;
-}
-.etymology .second, .third {
-	height: 200px;
+.etymology .first, .second, .third, .fourth {
+	display: inline-block;
+	width: 30%;
+	/*float: left;*/
+	margin: 30px 20px 0 0;
+	background-color: #fff;
+	overflow-y: auto;
 }
 .etymology .first {
 	float: left;
 }
 .etymology .fourth {
 	float: right;
+}
+.etymology .first, .fourth {
+	height: 500px;
+}
+.etymology .second, .third {
+	height: 250px;
+	margin-left: auto;
+	margin-right: auto;
 }
