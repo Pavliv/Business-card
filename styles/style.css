@@ -264,26 +264,54 @@ body,
 .etm_position {
 	position: relative;
 }
-.etymology .first, .second, .third, .fourth {
-	position: absolute;
-	width: 350px;
-	margin: 30px 20px 0 0;
-	background-color: #fff;
-	overflow-y: auto;
+@media (min-width: 768px) {
+	.etymology .first, .second, .third, .fourth {
+		position: absolute;
+		max-width: 100%;
+		height: auto;
+		margin: 30px 20px 0 0;
+		background-color: #fff;
+	}
 }
-.etymology .second, .third {
-	height: 225px;
-	left: 400px;
+@media (min-width: 992px) {
+	.etymology .first, .second, .third, .fourth {
+		/*position: absolute;*/
+		display: inline-block;
+		max-width: 400px;
+		height: auto;
+		margin: 30px 20px 0 0;
+		background-color: #fff;
+	}
 }
-.etymology .first, .fourth {
-	height: 500px;
-}
-.etymology .first {
-	left: 0;
-}
-.etymology  .third {
-	top: 275px;
-}
-.etymology .fourth {
-	right: 0;
+
+
+
+
+
+
+
+@media (min-width: 1200px) {
+	.etymology .first, .second, .third, .fourth {
+		position: absolute;
+		max-width: 350px;
+		margin: 30px 20px 0 0;
+		background-color: #fff;
+		overflow-y: auto;
+	}
+	.etymology .second, .third {
+		height: 225px;
+		left: 400px;
+	}
+	.etymology .first, .fourth {
+		height: 500px;
+	}
+	.etymology .first {
+		left: 0;
+	}
+	.etymology  .third {
+		top: 275px;
+	}
+	.etymology .fourth {
+		right: 0;
+	}
 }
